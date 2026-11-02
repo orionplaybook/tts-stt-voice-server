@@ -1,0 +1,442 @@
+{
+ "mlx-community/whisper-large-v3-turbo-asr-fp16": {
+  "model": "mlx-community/whisper-large-v3-turbo-asr-fp16",
+  "load_s": 9.57,
+  "clips": {
+   "en_10s": {
+    "audio_s": 10.0,
+    "latency_s": 0.435,
+    "rtf": 0.0434,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha but were extended by the Mayana Path of Love and by a lot of techniques from Indian Yoga."
+   },
+   "en_60s": {
+    "audio_s": 62.1,
+    "latency_s": 3.019,
+    "rtf": 0.0486,
+    "wer": 0.093,
+    "text": "When you call someone who is thousands of miles away, you are using a satellite. Now widely available throughout the archipelago, Japanese Cuisines features an array of simply seasoned dishes, the predominant flavorings... The Japanese favorite being peanuts, chilies, sugar, especially Japanese coconut sugar, and various aromatic spices. The UN also hopes to finalize a fund to help countries affected by global warming to cope with the impacts. Then Laca sings to the lead in singing the passions. The major religion in Moldova is Orthodox Christian. The East African Islands are in the Indian Ocean off the eastern coast of Africa. Some festivals have special camping areas. for families with young children. Pronunciation is relatively easy in Italian since most words are pronounced exactly how they are written."
+   },
+   "en_voicenote": {
+    "audio_s": 10.0,
+    "latency_s": 0.417,
+    "rtf": 0.0416,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha but were extended by the Mayana Path of Love and by a lot of techniques from Indian Yoga."
+   },
+   "fr_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.317,
+    "rtf": 0.0323,
+    "wer": 0.087,
+    "text": "Avec seulement 18 médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médaillés."
+   },
+   "fr_60s": {
+    "audio_s": 60.8,
+    "latency_s": 2.108,
+    "rtf": 0.0347,
+    "wer": 0.0839,
+    "text": "Il y a de nombreuses répercussions sociales et politiques, telles que l'utilisation du système métrique, le passage de l'absolutisme au républicanisme, le nationalisme et la conviction que le pays appartient au peuple et non à un seul dirigeant. Il n'avait pas non plus le pouvoir de déroger aux lois fiscales, il y a celle sur les droits de douane entre les États. Maintenant, largement disponible dans tout l'archipel, la cuisine... Javanais propose un éventail de plats simplement assaisonnés, des saveurs prédominantes que le javanais privilégie étant les cacahuètes, les piments, le sucre, en particulier le sucre de coco javanais. diverses épices aromatiques. De nombreux formats courants, familles de formats APS par exemple, sont égaux à ce rapport d'aspect ou sans rapproche de frais. La principale religion en Moldavie est le christianisme orthodoxe. Sur les routes glacées et enneigées, le frottement est faible et vous ne pouvez pas conduire comme si vous étiez sur l'asphalte nu."
+   },
+   "fr_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.3,
+    "rtf": 0.0305,
+    "wer": 0.087,
+    "text": "Avec seulement 18 médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médaillés."
+   },
+   "de_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.317,
+    "rtf": 0.0322,
+    "wer": 0.0,
+    "text": "Der Winter kann trügerisch kühl sein, die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   },
+   "de_60s": {
+    "audio_s": 62.1,
+    "latency_s": 1.933,
+    "rtf": 0.0311,
+    "wer": 0.0092,
+    "text": "Ihr erstes war der Slalom, bei dem sie in ihrem ersten Lauf ein Did Not Finish erhielt. 36 der 116 Teilnehmer erzielten in diesem Rennen das gleiche Ergebnis. Laut Polizei wird der Fahrer des Fahrzeugs, das den Fotografen angefahren hat, wahrscheinlich nicht angeklagt werden. Der Amazonas ist auch der breiteste Fluss der Erde, teilweise bis zu 6 Meilen breit. Die Wissenschaft weist nun darauf hin, dass diese massive Kohlenstoffwirtschaft die Biosphäre aus einem ihrer stabilen Zustände, der die menschliche Evolution in den letzten zwei Millionen Jahren getragen hat, herausgebracht hat. ein kurs deckt alle hier diskutierten probleme in der regel viel detaillierter ab Normalerweise in Kombination mit praktischer Erfahrung."
+   },
+   "de_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.327,
+    "rtf": 0.0332,
+    "wer": 0.0,
+    "text": "Der Winter kann trügerisch kühl sein, die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   }
+  },
+  "wer": {
+   "en": {
+    "utterances": 40,
+    "wer": 0.0333,
+    "wer_auto_language": 0.0333
+   },
+   "fr": {
+    "utterances": 40,
+    "wer": 0.0417,
+    "wer_auto_language": 0.0417
+   },
+   "de": {
+    "utterances": 40,
+    "wer": 0.0383
+   }
+  },
+  "peak_footprint_gb": 3.13,
+  "base_footprint_gb": 0.04,
+  "license": "MIT"
+ },
+ "mlx-community/parakeet-tdt-0.6b-v3": {
+  "model": "mlx-community/parakeet-tdt-0.6b-v3",
+  "load_s": 2.82,
+  "clips": {
+   "en_10s": {
+    "audio_s": 10.0,
+    "latency_s": 0.085,
+    "rtf": 0.0084,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha, but were extended by the Mayana, path of love, and by a lot of techniques from Indian yoga."
+   },
+   "en_60s": {
+    "audio_s": 62.1,
+    "latency_s": 0.369,
+    "rtf": 0.0059,
+    "wer": 0.0775,
+    "text": "When you call someone who is thousands of miles away, you are using a satellite. Now widely available throughout the archipelago, Japanese cuisines features an array of simply seasoned dishes, the predominant flavorings the Japanese favor being peanuts, chilies, sugar, especially Japanese coconut sugar, and various aromatic spices. The UN also hopes to finalize a fund to help countries affected by global warming to cope with the impacts. Then Laka Singh took the lead in singing the Bashals. The major religion in Moldova is Orthodox Christian. The East African Islands are in the Indian Ocean off the eastern coast of Africa. Some festivals have special camping areas for families with young children. Pronunciation is relatively easy in Italian since most wars are pronounced exactly how they are written."
+   },
+   "en_voicenote": {
+    "audio_s": 10.0,
+    "latency_s": 0.098,
+    "rtf": 0.0097,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha, but were extended by the Mayana, path of love, and by a lot of techniques from Indian yoga."
+   },
+   "fr_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.083,
+    "rtf": 0.0085,
+    "wer": 0.1304,
+    "text": "Avec seulement 18 médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médailles."
+   },
+   "fr_60s": {
+    "audio_s": 60.8,
+    "latency_s": 0.395,
+    "rtf": 0.0065,
+    "wer": 0.0839,
+    "text": "Il y a de nombreuses répercussions sociales et politiques, telles que l'utilisation du système métrique, le passage de l'absolutisme au républicanisme, le nationalisme et la conviction que le pays appartient au peuple et non à un seul dirigeant. Il n'avait pas non plus le pouvoir de déroger aux lois fiscales, il y a celle sur les droits de douane entre les États. Maintenant, largement disponible dans tout l'archipel, la cuisine javanaise propose un éventail de plats simplement assaisonné, des saveurs prédominantes que le javanais privilégie étant les cacahuètes, les piments, le sucre, en particulier le sucre de coco javanais, et diverses épices aromatiques. De nombreux formats courants, familles de formats APS, par exemple, sont égaux à ce rapport d'aspect ou s'en rapproche de près. La principale religion en Moldavie est le christianisme orthodoxe. Sur les routes classées à enneigées, le frottement est faible et vous ne pouvez pas conduire comme si vous étiez sur l'aspalt nu."
+   },
+   "fr_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.092,
+    "rtf": 0.0093,
+    "wer": 0.1304,
+    "text": "Avec seulement 18 médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médailles."
+   },
+   "de_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.095,
+    "rtf": 0.0097,
+    "wer": 0.0,
+    "text": "Der Winter kann trügerisch kühl sein. Die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   },
+   "de_60s": {
+    "audio_s": 62.1,
+    "latency_s": 0.367,
+    "rtf": 0.0059,
+    "wer": 0.0092,
+    "text": "Ihr erstes war der Slalom, bei dem sie in ihrem ersten Lauf ein Did not Finish erhielt. 36 der 116 Teilnehmer erzielten in diesem Rennen das gleiche Ergebnis. Laut Polizei wird der Fahrer des Fahrzeugs, das den Fotografen angefahren hat, wahrscheinlich nicht angeklagt werden. Der Amazonas ist auch der breiteste Fluss der Erde, teilweise bis zu 6 Meilen breit. Die Wissenschaft weist nun darauf hin, dass diese massive Kohlenstoffwirtschaft die Biosphäre aus einem ihrer stabilen Zustände, der die menschliche Evolution in den letzten zwei Millionen Jahren getragen hat, herausgebracht hat. Ein Kurs deckt alle hier diskutierten Probleme in der Regel viel detaillierter ab. Normalerweise in Kombination mit praktischer Erfahrung."
+   },
+   "de_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.098,
+    "rtf": 0.01,
+    "wer": 0.0333,
+    "text": "Der Winter kann trügerisch kühl sein. Die Temperatur gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   }
+  },
+  "wer": {
+   "en": {
+    "utterances": 40,
+    "wer": 0.037,
+    "wer_auto_language": 0.037
+   },
+   "fr": {
+    "utterances": 40,
+    "wer": 0.0363,
+    "wer_auto_language": 0.0363
+   },
+   "de": {
+    "utterances": 40,
+    "wer": 0.0419
+   }
+  },
+  "peak_footprint_gb": 4.7,
+  "base_footprint_gb": 0.04,
+  "license": "CC-BY-4.0"
+ },
+ "mlx-community/nemotron-3.5-asr-streaming-0.6b": {
+  "model": "mlx-community/nemotron-3.5-asr-streaming-0.6b",
+  "load_s": 2.69,
+  "clips": {
+   "en_10s": {
+    "audio_s": 10.0,
+    "latency_s": 0.554,
+    "rtf": 0.0553,
+    "wer": 0.0714,
+    "text": "The Tebetan Buddhism is based on the teachings of Buddha, but were extended by the Mayana Path of Love and by a lot of techniques from Indian yoga."
+   },
+   "en_60s": {
+    "audio_s": 62.1,
+    "latency_s": 3.293,
+    "rtf": 0.053,
+    "wer": 0.1318,
+    "text": "When you call someone who is thousands of miles away, you are using a satellite now widely available throughout the Archipelago, Japanese cuisine features an array of simply seasoned dishes the predominant flavorings, the Japanese flavor being peanuts, chilies, sugar, especially Japanese coconut sugar, and various aromatic spices.  The UN also hopes to finalize a fund to help countries affected by global warming to cope with the impacts to delete in singing the Pashans the major religion in Moldova is Orthodox Christian.  The East African Islands are in the Indian Ocean off the eastern coast of Africa Sound festivals have special camping areas for families with young children.  Prenunciation is relatively easy in Italian since most wars are pronounced exactly how they are written."
+   },
+   "en_voicenote": {
+    "audio_s": 10.0,
+    "latency_s": 0.643,
+    "rtf": 0.0642,
+    "wer": 0.0714,
+    "text": "The Tibeten Buddhism is based on the teachings of Buddha, but were extended by the Mayana Path of Love and by a lot of techniques from Indian yoga."
+   },
+   "fr_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.559,
+    "rtf": 0.0569,
+    "wer": 0.0,
+    "text": "Avec seulement dix-huit médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médaillés."
+   },
+   "fr_60s": {
+    "audio_s": 60.8,
+    "latency_s": 3.356,
+    "rtf": 0.0552,
+    "wer": 0.129,
+    "text": "Il y a de nombreuses répercussions sociales et politiques telles que l'utilisation du système métrique, le passage de l'absolutisme au républicanisme, le nationalisme et la conviction que le pays appartient au peuple et non à un seul dirigeant.  Il n'avait pas non plus du pouvoir de déroger au loin fiscal ni accède sur les droits de douane entre les États maintenant largement disponibles dans tout l'archipel, la cuisine javanaise propose un éventail de plats simplement assaisonnés, des saveurs prédominantes que le Javanais privilégie étant des cacahuètes, les piments et le sucre en particulier le sucre de coco javanais et diverses épices aromatiques.  De nombreux formats courants, famille de format APS, par exemple, sont égaux à ce rapport d'aspect ou sans rapproche de près.  La principale religion en Moldavie est le christianisme orthodoxe sur les routes classées à Enégée, le frottement est faible et vous ne pouvez pas reconduire comme si vous étiez sur l'asphalte nue."
+   },
+   "fr_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.568,
+    "rtf": 0.0578,
+    "wer": 0.0,
+    "text": "Avec seulement dix-huit médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médaillés."
+   },
+   "de_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.587,
+    "rtf": 0.0597,
+    "wer": 0.0,
+    "text": "Der Winter kann trügerisch kühl sein, die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   },
+   "de_60s": {
+    "audio_s": 62.1,
+    "latency_s": 3.41,
+    "rtf": 0.0549,
+    "wer": 0.0826,
+    "text": "Ihr erstes war der Slalom, bei dem sie in ihrem ersten Lauf ein Didnat Finnisch erhielt.  Sechs und dreißig der hundertsechzehn Teilnehmer erzielten in diesem Rennen das gleiche Ergebnis.  Laut Polizei wird der Fahrer des Fahrzeugs, das sind Fotografen angefahren hat, wahrscheinlich nicht angeklagt werden.  Der Amazonas ist auch der breiteste Fluss der Erde, teilweise bis zu sechs Meilen breit.  Die Wissenschaft weist nun darauf hin, dass diese massive Kohlenstoffwirtschaft die Biosphäre aus einem ihrer stabilen Zustände, der die menschliche Evolution in den letzten zwei Millionen Jahren getragen hat, herausgebracht hat ein Kurs deckt Ali hier diskutierten Probleme in der Regel viel detaillierter ab.  Normalerweise in Kombination mit praktischer Erfahrung"
+   },
+   "de_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.661,
+    "rtf": 0.0672,
+    "wer": 0.0,
+    "text": "Der Winter kann trügerisch kühl sein, die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   }
+  },
+  "wer": {
+   "en": {
+    "utterances": 40,
+    "wer": 0.074,
+    "wer_auto_language": 0.0752
+   },
+   "fr": {
+    "utterances": 40,
+    "wer": 0.0908,
+    "wer_auto_language": 0.0919
+   },
+   "de": {
+    "utterances": 40,
+    "wer": 0.0743
+   }
+  },
+  "peak_footprint_gb": 2.75,
+  "base_footprint_gb": 0.04,
+  "license": "OpenMDW-1.1 (MLX copy: NVIDIA Open Model License)"
+ },
+ "mlx-community/Qwen3-ASR-1.7B-8bit": {
+  "model": "mlx-community/Qwen3-ASR-1.7B-8bit",
+  "load_s": 2.85,
+  "clips": {
+   "en_10s": {
+    "audio_s": 10.0,
+    "latency_s": 0.631,
+    "rtf": 0.063,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha, but were extended by the Mayana path of love and by a lot of techniques from Indian yoga."
+   },
+   "en_60s": {
+    "audio_s": 62.1,
+    "latency_s": 2.927,
+    "rtf": 0.0471,
+    "wer": 0.0698,
+    "text": "When you call someone who is thousands of miles away, you are using a satellite. Now widely available throughout the archipelago, Japanese cuisine features an array of simply seasoned dishes. The predominant flavorings, the Japanese favor being peanuts, chilies, sugar, especially Japanese coconut sugar, and various aromatic spices. The UN also hopes to finalize a fund to help countries affected by global warming to cope with the impacts. Then Lakasing took the lead in singing the paschal. The major religion in Moldova is Orthodox Christian. The East African islands are in the Indian Ocean off the eastern coast of Africa. Some festivals have special camping areas for families with young children. Pronunciation is relatively easy in Italian since most words are pronounced exactly how they are written."
+   },
+   "en_voicenote": {
+    "audio_s": 10.0,
+    "latency_s": 0.63,
+    "rtf": 0.0629,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha, but were extended by the Mayana Path of Love and by a lot of techniques from Indian Yoga."
+   },
+   "fr_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.633,
+    "rtf": 0.0643,
+    "wer": 0.087,
+    "text": "Avec seulement 18 médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médaillés."
+   },
+   "fr_60s": {
+    "audio_s": 60.8,
+    "latency_s": 4.12,
+    "rtf": 0.0678,
+    "wer": 0.0581,
+    "text": "Il y a de nombreuses répercussions sociales et politiques, telles que l'utilisation du système métrique, le passage de l'absolutisme au républicanisme, le nationalisme et la conviction que le pays appartient au peuple et non à un seul dirigeant. N'arrive pas non plus le pouvoir de déroger aux droits fiscaux ni à celles sur les droits de douane entre les États. Maintenant, largement disponible dans tout l'archipel, la cuisine javanaise propose un éventail de plats simplement assaisonnés, des saveurs prédominantes que le javanais privilégie étant les cacahuètes, les piments, le sucre en particulier le sucre de coco javanais et diverses épices aromatiques. De nombreux formats courants, familles de formats APS par exemple, sont égaux à ce rapport d'aspect ou s'en rapprochent de près. La principale religion en Moldavie est le christianisme orthodoxe. Sur les routes glacées et enneigées, le frottement est faible et vous ne pouvez pas conduire comme si vous étiez sur l'asphalte nu."
+   },
+   "fr_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.397,
+    "rtf": 0.0403,
+    "wer": 0.087,
+    "text": "Avec seulement 18 médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médaillés."
+   },
+   "de_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.518,
+    "rtf": 0.0526,
+    "wer": 0.0,
+    "text": "Der Winter kann trügerisch kühl sein. Die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   },
+   "de_60s": {
+    "audio_s": 62.1,
+    "latency_s": 1.783,
+    "rtf": 0.0287,
+    "wer": 0.0,
+    "text": "Ihr erstes war der Slalom, bei dem sie in ihrem ersten Lauf ein Did Not Finish erhielt. 36 der 116 Teilnehmer erzielten in diesem Rennen das gleiche Ergebnis. Laut Polizei wird der Fahrer des Fahrzeugs, das den Fotografen angefahren hat, wahrscheinlich nicht angeklagt werden. Der Amazonas ist auch der breiteste Fluss der Erde, teilweise bis zu sechs Meilen breit. Die Wissenschaft weist nun darauf hin, dass diese massive Kohlenstoffwirtschaft die Biosphäre aus einem ihrer stabilen Zustände, der die menschliche Evolution in den letzten zwei Millionen Jahren getragen hat, herausgebracht hat. Ein Kurs deckt alle hier diskutierten Probleme in der Regel viel detaillierter ab, normalerweise in Kombination mit praktischer Erfahrung."
+   },
+   "de_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.528,
+    "rtf": 0.0537,
+    "wer": 0.0,
+    "text": "Der Winter kann trügerisch kühl sein. Die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   }
+  },
+  "wer": {
+   "en": {
+    "utterances": 40,
+    "wer": 0.0259,
+    "wer_auto_language": 0.0259
+   },
+   "fr": {
+    "utterances": 40,
+    "wer": 0.0299,
+    "wer_auto_language": 0.0321
+   },
+   "de": {
+    "utterances": 40,
+    "wer": 0.0323
+   }
+  },
+  "peak_footprint_gb": 5.07,
+  "base_footprint_gb": 0.04,
+  "license": "Apache-2.0"
+ },
+ "mlx-community/Qwen3-ASR-0.6B-8bit": {
+  "model": "mlx-community/Qwen3-ASR-0.6B-8bit",
+  "load_s": 24.63,
+  "clips": {
+   "en_10s": {
+    "audio_s": 10.0,
+    "latency_s": 0.188,
+    "rtf": 0.0188,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha, but were extended by the Maya Path of Love and by a lot of techniques from Indian yoga."
+   },
+   "en_60s": {
+    "audio_s": 62.1,
+    "latency_s": 0.627,
+    "rtf": 0.0101,
+    "wer": 0.2403,
+    "text": "When you call someone who is thousands of miles away, you are using a satellite. Now widely available throughout the archipelago, Japanese cuisine features an array of simply seasoned dishes. The predominant flavorings, the Japanese favor being peanuts, chilies, sugar, especially Japanese coconut sugar, and various aromatic spices. The UN also hopes to finalize a fund to help countries affected by global warming to cope with the impacts. The major religion in Moldova is Orthodox Christian. Some festivals have special camping areas for families with young children. Pronunciation is relatively easy in Italian since most words are pronounced exactly how they are written."
+   },
+   "en_voicenote": {
+    "audio_s": 10.0,
+    "latency_s": 0.194,
+    "rtf": 0.0193,
+    "wer": 0.0357,
+    "text": "The Tibetan Buddhism is based on the teachings of Buddha, but were extended by the Maya Path of Love and by a lot of techniques from Indian yoga."
+   },
+   "fr_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.197,
+    "rtf": 0.02,
+    "wer": 0.1304,
+    "text": "Avec seulement 12 médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médailleurs."
+   },
+   "fr_60s": {
+    "audio_s": 60.8,
+    "latency_s": 1.11,
+    "rtf": 0.0183,
+    "wer": 0.0968,
+    "text": "Il y a de nombreuses répercussions sociales et politiques tel que l'utilisation du système métrique, le passage de l'absolutisme au républicanisme, le nationalisme et la conviction que le pays appartient au peuple et non à un seul dirigeant. N'avez pas non plus le pouvoir de déroger aux lois fiscales, il y a celle sur les droits de loi entre les États. Maintenant, largement disponible dans tout l'archipel, la cuisine javanaise propose un éventail de plats simplement assaisonnés, des saveurs prédominantes que le javanais privilégie étant les cacahuètes, les piments, le sucre en particulier le sucre de coco javanais et diverses épices aromatiques. De nombreux formats courants, familles de formats APS par exemple sont égaux à ce rapport d'aspect ou sont rapprochés de près. La principale religion en Moldavie est le christianisme orthodoxe. Sur les routes glacées et enneigées, le frottement est faible et vous ne pouvez pas conduire comme si vous étiez sur l'Aswald nu."
+   },
+   "fr_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.206,
+    "rtf": 0.021,
+    "wer": 0.0435,
+    "text": "Avec seulement dix-huit médailles disponibles par jour, un certain nombre de pays n'ont pas réussi à monter sur le podium des médailleurs."
+   },
+   "de_10s": {
+    "audio_s": 9.8,
+    "latency_s": 0.26,
+    "rtf": 0.0264,
+    "wer": 0.0333,
+    "text": "Der Winter kann trügerisch kühle sein, die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   },
+   "de_60s": {
+    "audio_s": 62.1,
+    "latency_s": 0.871,
+    "rtf": 0.014,
+    "wer": 0.0183,
+    "text": "Ihr erstes war der Slalom, bei dem sie in ihrem ersten Lauf ein Didnot Finish erhielt. 36 der 116 Teilnehmer erzielten in diesem Rennen das gleiche Ergebnis. Laut Polizei wird der Fahrer des Fahrzeugs, das den Fotografen angefahren hat, wahrscheinlich nicht angeklagt werden. Der Amazonas ist auch der breiteste Fluss der Erde, teilweise bis zu sechs Meilen breit. Die Wissenschaft weist nun darauf hin, dass diese massive Kohlenstoffwirtschaft die Biosphäre aus einem ihrer stabilen Zustände, der die menschliche Evolution in den letzten zwei Millionen Jahren getragen hat, herausgebracht hat. Ein Kurs deckt alle hier diskutierten Probleme in der Regel viel detaillierter ab, normalerweise in Kombination mit praktischer Erfahrung."
+   },
+   "de_voicenote": {
+    "audio_s": 9.8,
+    "latency_s": 0.265,
+    "rtf": 0.027,
+    "wer": 0.0333,
+    "text": "Der Winter kann trügerisch kühle sein, die Temperaturen gehen selten unter den Gefrierpunkt, aber Wind und Feuchtigkeit führen dazu, dass es sich kälter anfühlt als das, was das Thermometer anzeigt."
+   }
+  },
+  "wer": {
+   "en": {
+    "utterances": 40,
+    "wer": 0.0308,
+    "wer_auto_language": 0.0308
+   },
+   "fr": {
+    "utterances": 40,
+    "wer": 0.0556,
+    "wer_auto_language": 0.0566
+   },
+   "de": {
+    "utterances": 40,
+    "wer": 0.0539
+   }
+  },
+  "peak_footprint_gb": 3.6,
+  "base_footprint_gb": 0.04,
+  "license": "Apache-2.0"
+ }
+}

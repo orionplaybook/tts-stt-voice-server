@@ -1,0 +1,14 @@
+{
+ "en": {
+  "sentence": "Good morning! Your first meeting starts at half past nine, and the report you asked for is ready.",
+  "paragraph": "I looked through the three proposals you sent last night. The second one is the strongest: it keeps the budget under forty thousand dollars and still delivers the pilot by March. The first one is cheaper, but it pushes the hardest work to a team that has never done it before. If you want, I can draft a short note to Claire explaining why we would go with the second option, and list the two questions we still need answered before Friday."
+ },
+ "fr": {
+  "sentence": "Bonjour ! Ta première réunion commence à neuf heures et demie, et le rapport que tu as demandé est prêt.",
+  "paragraph": "J'ai parcouru les trois propositions que tu m'as envoyées hier soir. La deuxième est la plus solide : elle reste sous les quarante mille dollars et livre quand même le projet pilote d'ici mars. La première coûte moins cher, mais elle confie le travail le plus difficile à une équipe qui ne l'a jamais fait. Si tu veux, je peux rédiger une courte note pour Claire qui explique pourquoi nous choisirions la deuxième option, et lister les deux questions auxquelles il faut encore répondre avant vendredi."
+ },
+ "de": {
+  "sentence": "Guten Morgen! Dein erstes Meeting beginnt um halb zehn, und der Bericht, den du angefragt hast, ist fertig.",
+  "paragraph": "Ich habe mir die drei Vorschläge angesehen, die du gestern Abend geschickt hast. Der zweite ist der stärkste: Er bleibt unter vierzigtausend Dollar und liefert das Pilotprojekt trotzdem bis März. Der erste ist günstiger, überlässt die schwierigste Arbeit aber einem Team, das so etwas noch nie gemacht hat. Wenn du möchtest, schreibe ich Claire eine kurze Notiz, warum wir uns für die zweite Option entscheiden würden, und liste die zwei Fragen auf, die wir vor Freitag noch klären müssen."
+ }
+}

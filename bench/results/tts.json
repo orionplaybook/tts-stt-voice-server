@@ -1,0 +1,316 @@
+{
+ "kokoro": {
+  "key": "kokoro",
+  "repo": "mlx-community/Kokoro-82M-bf16",
+  "label": "B",
+  "load_s": 0.5,
+  "streaming": false,
+  "runs": {
+   "en_sentence": {
+    "ttfa_s": 0.19,
+    "total_s": 0.19,
+    "audio_s": 6.2,
+    "rtf": 0.031,
+    "sample_rate": 24000
+   },
+   "en_paragraph": {
+    "ttfa_s": 0.1,
+    "total_s": 0.84,
+    "audio_s": 26.3,
+    "rtf": 0.032,
+    "sample_rate": 24000
+   },
+   "fr_sentence": {
+    "ttfa_s": 0.19,
+    "total_s": 0.19,
+    "audio_s": 6.3,
+    "rtf": 0.03,
+    "sample_rate": 24000
+   },
+   "fr_paragraph": {
+    "ttfa_s": 0.13,
+    "total_s": 0.88,
+    "audio_s": 29.2,
+    "rtf": 0.03,
+    "sample_rate": 24000
+   }
+  },
+  "peak_footprint_gb": 4.12,
+  "languages": [
+   "en",
+   "fr"
+  ],
+  "license": "Apache-2.0"
+ },
+ "chatterbox": {
+  "key": "chatterbox",
+  "repo": "mlx-community/chatterbox-fp16",
+  "label": "D",
+  "load_s": 1.7,
+  "streaming": false,
+  "runs": {
+   "en_sentence": {
+    "ttfa_s": 1.74,
+    "total_s": 1.75,
+    "audio_s": 4.2,
+    "rtf": 0.416,
+    "sample_rate": 24000
+   },
+   "en_paragraph": {
+    "ttfa_s": 1.08,
+    "total_s": 8.1,
+    "audio_s": 19.2,
+    "rtf": 0.421,
+    "sample_rate": 24000
+   },
+   "fr_sentence": {
+    "ttfa_s": 1.85,
+    "total_s": 1.85,
+    "audio_s": 4.4,
+    "rtf": 0.417,
+    "sample_rate": 24000
+   },
+   "fr_paragraph": {
+    "ttfa_s": 1.51,
+    "total_s": 9.3,
+    "audio_s": 22.2,
+    "rtf": 0.419,
+    "sample_rate": 24000
+   },
+   "de_sentence": {
+    "ttfa_s": 2.05,
+    "total_s": 2.06,
+    "audio_s": 5.0,
+    "rtf": 0.414,
+    "sample_rate": 24000
+   },
+   "de_paragraph": {
+    "ttfa_s": 1.78,
+    "total_s": 9.78,
+    "audio_s": 23.2,
+    "rtf": 0.421,
+    "sample_rate": 24000
+   }
+  },
+  "peak_footprint_gb": 6.02,
+  "languages": [
+   "en",
+   "fr",
+   "de"
+  ],
+  "license": "MIT"
+ },
+ "chatterbox-turbo": {
+  "key": "chatterbox-turbo",
+  "repo": "mlx-community/chatterbox-turbo-fp16",
+  "label": "E",
+  "load_s": 3.4,
+  "streaming": true,
+  "runs": {
+   "en_sentence": {
+    "ttfa_s": 0.22,
+    "total_s": 1.91,
+    "audio_s": 4.6,
+    "rtf": 0.415,
+    "sample_rate": 24000
+   },
+   "en_paragraph": {
+    "ttfa_s": 0.23,
+    "total_s": 10.37,
+    "audio_s": 22.5,
+    "rtf": 0.461,
+    "sample_rate": 24000
+   }
+  },
+  "peak_footprint_gb": 6.07,
+  "languages": [
+   "en"
+  ],
+  "license": "MIT"
+ },
+ "qwen3-tts": {
+  "key": "qwen3-tts",
+  "repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-bf16",
+  "label": "C",
+  "load_s": 3.6,
+  "streaming": true,
+  "runs": {
+   "en_sentence": {
+    "ttfa_s": 0.23,
+    "total_s": 2.19,
+    "audio_s": 5.5,
+    "rtf": 0.397,
+    "sample_rate": 24000
+   },
+   "en_paragraph": {
+    "ttfa_s": 0.23,
+    "total_s": 10.36,
+    "audio_s": 25.7,
+    "rtf": 0.404,
+    "sample_rate": 24000
+   },
+   "fr_sentence": {
+    "ttfa_s": 0.22,
+    "total_s": 2.14,
+    "audio_s": 5.3,
+    "rtf": 0.405,
+    "sample_rate": 24000
+   },
+   "fr_paragraph": {
+    "ttfa_s": 0.23,
+    "total_s": 12.25,
+    "audio_s": 30.5,
+    "rtf": 0.402,
+    "sample_rate": 24000
+   },
+   "de_sentence": {
+    "ttfa_s": 0.24,
+    "total_s": 3.12,
+    "audio_s": 7.8,
+    "rtf": 0.403,
+    "sample_rate": 24000
+   },
+   "de_paragraph": {
+    "ttfa_s": 0.24,
+    "total_s": 11.8,
+    "audio_s": 29.0,
+    "rtf": 0.406,
+    "sample_rate": 24000
+   }
+  },
+  "speakers": [
+   "serena",
+   "vivian",
+   "uncle_fu",
+   "ryan",
+   "aiden",
+   "ono_anna",
+   "sohee",
+   "eric",
+   "dylan"
+  ],
+  "peak_footprint_gb": 6.09,
+  "languages": [
+   "en",
+   "fr",
+   "de"
+  ],
+  "license": "Apache-2.0"
+ },
+ "voxcpm2": {
+  "key": "voxcpm2",
+  "repo": "mlx-community/VoxCPM2-bf16",
+  "label": "A",
+  "load_s": 2.6,
+  "streaming": false,
+  "runs": {
+   "en_sentence": {
+    "ttfa_s": 5.86,
+    "total_s": 5.86,
+    "audio_s": 5.3,
+    "rtf": 1.11,
+    "sample_rate": 48000
+   },
+   "en_paragraph": {
+    "ttfa_s": 2.92,
+    "total_s": 28.1,
+    "audio_s": 23.8,
+    "rtf": 1.179,
+    "sample_rate": 48000
+   },
+   "fr_sentence": {
+    "ttfa_s": 6.54,
+    "total_s": 6.54,
+    "audio_s": 5.1,
+    "rtf": 1.277,
+    "sample_rate": 48000
+   },
+   "fr_paragraph": {
+    "ttfa_s": 4.46,
+    "total_s": 28.06,
+    "audio_s": 22.4,
+    "rtf": 1.253,
+    "sample_rate": 48000
+   },
+   "de_sentence": {
+    "ttfa_s": 7.77,
+    "total_s": 7.77,
+    "audio_s": 6.4,
+    "rtf": 1.214,
+    "sample_rate": 48000
+   },
+   "de_paragraph": {
+    "ttfa_s": 4.62,
+    "total_s": 31.16,
+    "audio_s": 25.1,
+    "rtf": 1.241,
+    "sample_rate": 48000
+   }
+  },
+  "peak_footprint_gb": 53.3,
+  "languages": [
+   "en",
+   "fr",
+   "de"
+  ],
+  "license": "Apache-2.0"
+ },
+ "chatterbox-8bit": {
+  "key": "chatterbox-8bit",
+  "repo": "mlx-community/chatterbox-8bit",
+  "label": "F",
+  "load_s": 2.0,
+  "streaming": false,
+  "runs": {
+   "en_sentence": {
+    "ttfa_s": 1.24,
+    "total_s": 1.24,
+    "audio_s": 4.0,
+    "rtf": 0.313,
+    "sample_rate": 24000
+   },
+   "en_paragraph": {
+    "ttfa_s": 0.7,
+    "total_s": 5.0,
+    "audio_s": 20.1,
+    "rtf": 0.249,
+    "sample_rate": 24000
+   },
+   "fr_sentence": {
+    "ttfa_s": 1.13,
+    "total_s": 1.13,
+    "audio_s": 4.6,
+    "rtf": 0.244,
+    "sample_rate": 24000
+   },
+   "fr_paragraph": {
+    "ttfa_s": 0.82,
+    "total_s": 5.35,
+    "audio_s": 21.4,
+    "rtf": 0.25,
+    "sample_rate": 24000
+   },
+   "de_sentence": {
+    "ttfa_s": 1.2,
+    "total_s": 1.2,
+    "audio_s": 5.1,
+    "rtf": 0.236,
+    "sample_rate": 24000
+   },
+   "de_paragraph": {
+    "ttfa_s": 1.01,
+    "total_s": 5.72,
+    "audio_s": 22.9,
+    "rtf": 0.25,
+    "sample_rate": 24000
+   }
+  },
+  "peak_footprint_gb": 4.22,
+  "languages": [
+   "en",
+   "fr",
+   "de"
+  ],
+  "license": "MIT"
+ }
+}

@@ -1,0 +1,134 @@
+{
+ "A": {
+  "de_paragraph": {
+   "wer": 0.0253,
+   "heard": "Ich habe mir die drei Vorschläge angesehen, die du gestern Abend geschickt hast. Der zweite ist der stärkste. Er bleibt unter 40.000 Dollar und liefert das Pilotprojekt trotzdem bis März. Der erste ist günstiger, überlässt die schwierigste Arbeit aber einem Team, das so etwas noch nie gemacht hat. Wenn du möchtest, schreibe ich Claire eine kurze Notiz, warum wir uns für die zweite Option entscheiden würden, und liste die zwei Fragen auf, die wir vor Freitag noch klären müssen."
+  },
+  "de_sentence": {
+   "wer": 0.0556,
+   "heard": "Guten Tag, dein erstes Meeting beginnt um halb zehn und der Bericht, den du angefragt hast, ist fertig."
+  },
+  "en_paragraph": {
+   "wer": 0.061,
+   "heard": "I'll look through the three proposals you sent last night. The second one is the strongest. It keeps the budget under $40,000 and still delivers the pilot by March. The first one is cheaper, but it pushes the hardest work to a team that has never done it before. If you want, I can draft a short note to Claire explaining why we would go with the second option and list the two questions we still need answered before Friday."
+  },
+  "en_sentence": {
+   "wer": 0.0,
+   "heard": "Good morning. Your first meeting starts at half past nine and the report you asked for is ready."
+  },
+  "fr_paragraph": {
+   "wer": 0.0353,
+   "heard": "J'ai parcouru les trois propositions que tu m'as envoyées hier soir. La deuxième est la plus solide. Elle reste sous les 40 000 $ et livre quand même le projet pilote d'ici mars. La première coûte moins cher, mais elle confie le travail le plus difficile à une équipe qui ne l'a jamais fait. Si tu veux, je peux rédiger une courte note pour Claire qui explique pourquoi nous choisirions la deuxième option et lister les deux questions auxquelles il faut encore répondre avant vendredi."
+  },
+  "fr_sentence": {
+   "wer": 0.2105,
+   "heard": "Bonjour! Ta première réunion commence à 9h30 et le rapport que tu as demandé est prêt."
+  }
+ },
+ "B": {
+  "en_paragraph": {
+   "wer": 0.0366,
+   "heard": "I looked through the three proposals you sent last night. The second one is the strongest. It keeps the budget under $40,000 and still delivers the pilot by March. The first one is cheaper, but it pushes the hardest work to a team that has never done it before. If you want, I can draft a short note to Claire explaining why we would go with the second option and list the two questions we still need answered before Friday."
+  },
+  "en_sentence": {
+   "wer": 0.0,
+   "heard": "Good morning. Your first meeting starts at half past nine and the report you asked for is ready."
+  },
+  "fr_paragraph": {
+   "wer": 0.0353,
+   "heard": "J'ai parcouru les trois propositions que tu m'as envoyées hier soir. La deuxième est la plus solide, elle reste sous les 40 000 $ et livre quand même le projet pilote d'ici mars. La première coûte moins cher, mais elle confie le travail le plus difficile à une équipe qui ne l'a jamais fait. Si tu veux, je peux rédiger une courte note pour Claire qui explique pourquoi nous choisirions la deuxième option et lister les deux questions auxquelles il faut encore répondre avant vendredi."
+  },
+  "fr_sentence": {
+   "wer": 0.2105,
+   "heard": "Bonjour, ta première réunion commence à 9h30 et le rapport que tu as demandé est prêt."
+  }
+ },
+ "C": {
+  "de_paragraph": {
+   "wer": 0.0253,
+   "heard": "Ich habe mir die drei Vorschläge angesehen, die du gestern Abend geschickt hast. Der zweite ist der stärkste. Er bleibt unter 40.000 Dollar und liefert das Pilotprojekt trotzdem bis März. Der erste ist günstiger. Überlässt die schwierigste Arbeit aber einem Team, das so etwas noch nie gemacht hat. Wenn du möchtest, schreibe ich Claire eine kurze Notiz, warum wir uns für die zweite Option entscheiden würden und liste die zwei Fragen auf, die wir vor Freitag noch klären müssen."
+  },
+  "de_sentence": {
+   "wer": 0.0,
+   "heard": "Guten Morgen! Dein erstes Meeting beginnt um halb zehn und der Bericht, den du angefragt hast, ist fertig."
+  },
+  "en_paragraph": {
+   "wer": 0.0366,
+   "heard": "I looked through the three proposals you sent last night. The second one is the strongest. It keeps the budget under $40,000 and still delivers the pilot by March. The first one is cheaper, but it pushes the hardest work to a team that has never done it before. If you want, I can draft a short note to Claire explaining why we would go with the second option and list the two questions we still need answered before Friday."
+  },
+  "en_sentence": {
+   "wer": 0.0,
+   "heard": "Good morning! Your first meeting starts at half past nine, and the report you asked for is ready."
+  },
+  "fr_paragraph": {
+   "wer": 0.0471,
+   "heard": "J'ai parcouru les trois propositions que tu m'as envoyées hier soir. La deuxième est la plus solide. Elle reste sous les 40 000 $. et livre quand même le projet pilote d'ici mars. La première coûte moins cher, mais elle confie le travail le plus difficile à une équipe. qui ne l'a jamais fait. Si tu veux, je peux rédiger une courte note pour Claire qui explique pourquoi nous choisirions la deuxième option. et listez les deux questions auxquelles il faut encore répondre avant vendredi."
+  },
+  "fr_sentence": {
+   "wer": 0.2105,
+   "heard": "Bonjour, ta première réunion commence à 9h30 et le rapport que tu as demandé est prêt."
+  }
+ },
+ "D": {
+  "de_paragraph": {
+   "wer": 0.0253,
+   "heard": "Ich habe mir die drei Vorschläge angesehen, die du gestern Abend geschickt hast. Der zweite ist der stärkste, er bleibt unter 40.000 Dollar und liefert das Pilotprojekt trotzdem bis März. Der erste ist günstiger, überlässt die schwierigste Arbeit aber einem Team, das so etwas noch nie gemacht hat. Wenn du möchtest, schreibe ich Claire eine kurze Notiz, warum wir uns für die zweite Option entscheiden würden und liste die zwei Fragen auf, die wir vor Freitag noch klären müssen."
+  },
+  "de_sentence": {
+   "wer": 0.1111,
+   "heard": "Guten Morgen, dein nächstes Meeting beginnt um halb 10 und der Bericht, den du angefragt hast, ist fertig."
+  },
+  "en_paragraph": {
+   "wer": 0.0366,
+   "heard": "I looked through the three proposals you sent last night. The second one is the strongest. It keeps the budget under $40,000 and still delivers the pilot by March. The first one is cheaper, but it pushes the hardest work to a team that has never done it before. If you want, I can draft a short note to Claire explaining why we would go with the second option and list the two questions we still need answered before Friday."
+  },
+  "en_sentence": {
+   "wer": 0.0,
+   "heard": "Good morning, your first meeting starts at half past nine and the report you asked for is ready."
+  },
+  "fr_paragraph": {
+   "wer": 0.0471,
+   "heard": "T, j'ai parcouru les trois propositions que tu m'as envoyées hier soir. La deuxième est la plus solide. Elle reste sous les 40 000 $ et livre quand même le projet pilote d'ici mars. La première coûte moins cher, mais elle confie le travail le plus difficile à une équipe qui ne l'a jamais fait. Si tu veux, je peux rédiger une courte note pour Claire qui explique pourquoi nous choisirions la deuxième option et lister les deux questions auxquelles il faut encore répondre avant vendredi."
+  },
+  "fr_sentence": {
+   "wer": 0.2632,
+   "heard": "Bonjour, la première réunion commence à 9h30 et le rapport que tu as demandé est prêt."
+  }
+ },
+ "E": {
+  "en_paragraph": {
+   "wer": 0.0366,
+   "heard": "I looked through the three proposals you sent last night. The second one is the strongest, it keeps the budget under $40,000, and still delivers the pilot by March. The first one is cheaper, but it pushes the hardest work to a team that has never done it before. If you want, I can draft a short note to Claire explaining why we would go with the second option and list the two questions we still need answered before Friday."
+  },
+  "en_sentence": {
+   "wer": 0.0,
+   "heard": "Good morning! Your first meeting starts at half past nine and the report you asked for is ready."
+  }
+ },
+ "F": {
+  "de_paragraph": {
+   "wer": 0.1013,
+   "heard": "Ich habe mir die drei Vorschläge angesehen, die du gestern Abend geschickt hast. Der zweite ist der stärkste, er bleibt unter 40.000 Dollar und liefert das PL-Projekt trotzdem bis März. Der erste ist Prinz-Digger, überlässt die schwierigste Arbeit aber einem Team, der so etwas noch nie gemacht hat. Wenn du möchtest, schreibe ich Klärer eine kurze Notiz, warum wir uns für die zweite Option entscheiden würden und liste die zwei Fragen auf, die wir vor Freitag noch klären müssen."
+  },
+  "de_sentence": {
+   "wer": 0.1111,
+   "heard": "Guten Morgen, dein erstes Meeting beginnt um hauptzehn und der Bericht, den du angefragt hast, ist fertig."
+  },
+  "en_paragraph": {
+   "wer": 0.0488,
+   "heard": "I looked through the free proposals you sent last night. The second one is the strongest. It keeps the budget under $40,000 and still delivers the pilot by March. The first one is cheaper, but it pushes the hardest work to a team that has never done it before. If you want, I can draft a short note to Claire explaining why we would go with the second option and list the two questions we still need answered before Friday."
+  },
+  "en_sentence": {
+   "wer": 0.0,
+   "heard": "Good morning, your first meeting starts at half past nine and the report you asked for is ready."
+  },
+  "fr_paragraph": {
+   "wer": 0.0588,
+   "heard": "J'ai parcouru les trois propositions que tu m'as envoyées hier soir. La deuxième est la plus solide, elle reste sur les 40 000 $ et livre quand même le projet pilote d'ici mars. La première coûte moins cher, mais elle confie le travail le plus difficile à une équipe qui ne l'a jamais fait. Si tu veux, je peux rédiger une courte note pour Claire qui explique pourquoi nous choisirions la deuxième option, et l'écouter les deux questions auxquelles il faut encore répondre avant vendredi."
+  },
+  "fr_sentence": {
+   "wer": 0.2105,
+   "heard": "Bonjour, ta première réunion commence à 9h30 et le rapport que tu as demandé est prêt."
+  }
+ }
+}

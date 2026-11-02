@@ -1,0 +1,106 @@
+# voice-server configuration. No secrets here: tokens live in [server].tokens_file (hashed).
+# Machine-specific overrides go in config.local.toml next to this file (same keys, merged on top).
+# Restart the service after editing: scripts/voice-server.sh restart
+
+[server]
+# 127.0.0.1: reachable from this Mac and from Docker Desktop containers via
+# host.docker.internal (Docker Desktop forwards that name to the host's loopback).
+# Any other address needs HTTPS (tls_cert + tls_key below), or a TLS reverse proxy in front
+# of 127.0.0.1, so tokens and audio never cross the network in clear text. The server refuses
+# to start otherwise, unless allow_plain_http_remote = true.
+host = "127.0.0.1"
+port = 8100
+tokens_file = "~/.config/voice-server/tokens.json"
+log_dir = "~/Library/Logs/voice-server"
+log_content = false         # true logs transcripts and speech input: debugging only
+max_upload_mb = 25          # OpenAI's limit
+max_audio_minutes = 30      # longest audio accepted once decoded (uploads and realtime)
+max_input_chars = 4096      # OpenAI's limit for /v1/audio/speech
+queue_timeout_s = 30        # a request waiting longer than this for the GPU gets 503
+request_timeout_s = 180
+mlx_cache_limit_gb = 0.25   # GPU memory MLX keeps for reuse while a request runs
+release_after_request = true # return it to macOS after every job (costs ~nothing)
+# tls_cert = "~/.config/voice-server/cert.pem"   # PEM certificate and key: serve HTTPS
+# tls_key = "~/.config/voice-server/key.pem"
+# allow_plain_http_remote = false
+
+# --- Speech to text --------------------------------------------------------------------------
+
+[stt]
+default = "whisper-turbo"
+
+[stt.aliases]
+"whisper-1" = "whisper-turbo"
+"gpt-4o-transcribe" = "whisper-turbo"
+"gpt-4o-mini-transcribe" = "whisper-turbo"
+"gpt-transcribe" = "whisper-turbo"
+"gpt-live-transcribe" = "whisper-turbo"     # Hermes' default realtime model name
+
+[stt.models.whisper-turbo]
+# MIT. 6-bit: 1.7 GB resident instead of 2.35 GB at fp16, same accuracy (BENCHMARKS.md).
+repo = "mlx-community/whisper-large-v3-turbo-asr-6bit"
+preload = true
+idle_unload_s = 0
+max_queue = 8
+
+# More accurate than Whisper turbo, especially on long recordings (Apache-2.0, 2.8 GB while
+# loaded). On demand: model="qwen3-asr" (voicectl transcribe --model qwen3-asr). To make it what
+# whisper-1 means, set [stt].default = "qwen3-asr" and point the aliases above at it.
+[stt.models.qwen3-asr]
+repo = "mlx-community/Qwen3-ASR-1.7B-8bit"
+preload = false
+idle_unload_s = 600
+max_queue = 8
+
+# --- Text to speech --------------------------------------------------------------------------
+
+[tts]
+default = "kokoro"
+
+# Point OpenAI's model names at whichever model you prefer; a request may also name a model
+# directly ("kokoro", "chatterbox") or by its Hugging Face repo id.
+[tts.aliases]
+"tts-1" = "kokoro"
+"tts-1-hd" = "kokoro"
+"gpt-4o-mini-tts" = "kokoro"
+
+# OpenAI voice names -> a voice configured on the model below. A model's own voice names (for
+# Kokoro: af_bella, am_michael, bf_emma, ... see GET /v1/audio/voices) can be requested directly.
+[tts.voice_aliases]
+alloy = "default"
+ash = "default"
+ballad = "default"
+coral = "default"
+echo = "default"
+fable = "default"
+nova = "default"
+onyx = "default"
+sage = "default"
+shimmer = "default"
+verse = "default"
+marin = "default"
+cedar = "default"
+
+[tts.models.kokoro]
+repo = "mlx-community/Kokoro-82M-bf16"     # Apache-2.0; first audio in 0.2 s; 1 GB
+languages = ["en", "fr"]
+fallback = "chatterbox"                    # used for any other language (German)
+default_voice = "default"
+preload = true
+max_queue = 8
+[tts.models.kokoro.voices.default]
+en = { speaker = "af_heart" }
+fr = { speaker = "ff_siwis" }              # Kokoro's only French voice
+
+# Second model: German (as Kokoro's fallback), or on request with model="chatterbox".
+# Not loaded at start; loads on first use (a few seconds) and unloads after 10 idle minutes.
+[tts.models.chatterbox]
+repo = "mlx-community/chatterbox-8bit"     # MIT (Resemble AI), 23 languages; 1.9 GB when loaded
+extra_repos = ["mlx-community/S3TokenizerV2"]   # speech tokenizer it loads by name
+languages = ["en", "fr", "de"]
+default_voice = "default"
+preload = false
+idle_unload_s = 600
+max_queue = 8
+[tts.models.chatterbox.voices.default]
+"*" = {}

@@ -1,0 +1,32 @@
+# Local environment (re-created by scripts/install.sh from uv.lock)
+.venv/
+.tools/
+.python/
+.uv-cache/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Downloaded benchmark audio (bench/fetch_data.py); results and samples ARE kept
+bench/data/
+bench/results-*.log
+# Never commit tokens or secrets
+tokens.json
+*.env
+.env
+*.swp
+*.swo
+*~
+.DS_Store
+# Third-party code and models are downloaded at install time, never committed
+*.whl
+*.so
+*.dylib
+*.safetensors
+*.gguf
+*.npz
+*.pt
+*.pth
+*.onnx
+*.token
+*.pem
+*.key

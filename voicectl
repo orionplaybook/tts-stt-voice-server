@@ -1,0 +1,6 @@
+#!/bin/sh
+# voicectl: control and use voice-server. `./voicectl --help` lists the commands.
+# Put it on your PATH with:  ln -s "$PWD/voicectl" ~/.local/bin/voicectl
+DIR="$(cd "$(dirname "$(readlink -f "$0" 2>/dev/null || echo "$0")")" && pwd)"
+[ -x "$DIR/.venv/bin/python" ] || { echo "voicectl: environment missing; run $DIR/scripts/install.sh first" >&2; exit 1; }
+exec "$DIR/.venv/bin/python" -m voiceserver.cli "$@"

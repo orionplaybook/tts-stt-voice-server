@@ -1,0 +1,88 @@
+{
+ "mlx-community/whisper-large-v3-turbo-asr-fp16": {
+  "kind": "stt",
+  "repo": "mlx-community/whisper-large-v3-turbo-asr-fp16",
+  "resident_gb": 2.35,
+  "wer_en": 0.0333,
+  "wer_fr": 0.0417,
+  "voicenote_s": 0.3,
+  "peak_gb": 3.04
+ },
+ "mlx-community/whisper-large-v3-turbo-asr-6bit": {
+  "kind": "stt",
+  "repo": "mlx-community/whisper-large-v3-turbo-asr-6bit",
+  "resident_gb": 1.7,
+  "wer_en": 0.0358,
+  "wer_fr": 0.0417,
+  "voicenote_s": 0.29,
+  "peak_gb": 2.29
+ },
+ "mlx-community/whisper-large-v3-turbo-asr-4bit": {
+  "kind": "stt",
+  "repo": "mlx-community/whisper-large-v3-turbo-asr-4bit",
+  "resident_gb": 1.55,
+  "wer_en": 0.0358,
+  "wer_fr": 0.0406,
+  "voicenote_s": 0.29,
+  "peak_gb": 2.17
+ },
+ "mlx-community/Qwen3-ASR-1.7B-8bit": {
+  "kind": "stt",
+  "repo": "mlx-community/Qwen3-ASR-1.7B-8bit",
+  "resident_gb": 2.82,
+  "wer_en": 0.0259,
+  "wer_fr": 0.0299,
+  "voicenote_s": 0.41,
+  "peak_gb": 4.11
+ },
+ "mlx-community/Kokoro-82M-bf16": {
+  "kind": "tts",
+  "repo": "mlx-community/Kokoro-82M-bf16",
+  "resident_gb": 1.04,
+  "paragraph_en_s": 0.82,
+  "paragraph_fr_s": 1.11,
+  "intelligibility_wer_en": 0.0366,
+  "intelligibility_wer_fr": 0.0353,
+  "peak_gb": 3.25
+ },
+ "mlx-community/chatterbox-fp16": {
+  "kind": "tts",
+  "repo": "mlx-community/chatterbox-fp16",
+  "resident_gb": 3.79,
+  "paragraph_en_s": 8.47,
+  "paragraph_fr_s": 8.94,
+  "intelligibility_wer_en": 0.0366,
+  "intelligibility_wer_fr": 0.1294,
+  "peak_gb": 5.18
+ },
+ "mlx-community/chatterbox-8bit": {
+  "kind": "tts",
+  "repo": "mlx-community/chatterbox-8bit",
+  "resident_gb": 1.94,
+  "paragraph_en_s": 5.2,
+  "paragraph_fr_s": 5.5,
+  "intelligibility_wer_en": 0.0488,
+  "intelligibility_wer_fr": 0.0824,
+  "peak_gb": 3.48
+ },
+ "mlx-community/chatterbox-4bit": {
+  "kind": "tts",
+  "repo": "mlx-community/chatterbox-4bit",
+  "resident_gb": 1.62,
+  "paragraph_en_s": 4.43,
+  "paragraph_fr_s": 5.03,
+  "intelligibility_wer_en": 0.061,
+  "intelligibility_wer_fr": 0.0353,
+  "peak_gb": 3.08
+ },
+ "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit": {
+  "kind": "tts",
+  "repo": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-8bit",
+  "resident_gb": 3.83,
+  "paragraph_en_s": 6.64,
+  "paragraph_fr_s": 8.94,
+  "intelligibility_wer_en": 0.0366,
+  "intelligibility_wer_fr": 0.1059,
+  "peak_gb": 4.3
+ }
+}

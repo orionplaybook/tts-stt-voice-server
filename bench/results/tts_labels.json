@@ -1,0 +1,8 @@
+{
+ "voxcpm2": "A",
+ "kokoro": "B",
+ "qwen3-tts": "C",
+ "chatterbox": "D",
+ "chatterbox-turbo": "E",
+ "chatterbox-8bit": "F"
+}

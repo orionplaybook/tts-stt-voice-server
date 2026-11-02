@@ -1,0 +1,25 @@
+{
+ "note": "Pinned model commits; change with `voicectl update`.",
+ "repos": {
+  "mlx-community/Kokoro-82M-bf16": {
+   "revision": "a71e4d38b236d968966a2002c4c895dbd12b1c3c",
+   "date": "2025-12-02"
+  },
+  "mlx-community/Qwen3-ASR-1.7B-8bit": {
+   "revision": "a8379a2e2f9e313c9292cdf1af4055ab56d50d55",
+   "date": "2026-01-29"
+  },
+  "mlx-community/S3TokenizerV2": {
+   "revision": "e0c9886f0e1c35ae85b1f27277416fb19fc72bec",
+   "date": "2025-12-05"
+  },
+  "mlx-community/chatterbox-8bit": {
+   "revision": "9617d61b596a03d1bed766a28c341680e993a1b9",
+   "date": "2026-01-05"
+  },
+  "mlx-community/whisper-large-v3-turbo-asr-6bit": {
+   "revision": "9ad57755be12832e705565f2c8f0cd5d52da9f90",
+   "date": "2026-01-14"
+  }
+ }
+}
